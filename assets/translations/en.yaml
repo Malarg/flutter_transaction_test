@@ -1,0 +1,33 @@
+common:
+  errors:
+    unknown: Unknown error
+  validation:
+    should_not_be_empty: Field should not be empty
+
+auth:
+  login_label: Login
+  password_label: Password
+  must_be_alphanumeric: Field must be alphanumeric
+  password_must_be_at_least_8_characters: Password must be at least 8 characters long
+  invalid_credentials: Invalid credentials
+  submit: Submit
+
+transaction:
+  type:
+    deposit: Deposit
+    withdrawal: Withdrawal
+    transfer: Transfer
+  failed_to_load: Failed to load transaction
+  delete: Delete
+  deleted: Deleted
+  delete_failed: Failed to delete transaction
+  number: Number
+  amount: Amount
+  type_title: Type
+  date: Date
+  fee: Fee
+  total: Total
+
+home:
+  transactions: Transactions
+  account: Account

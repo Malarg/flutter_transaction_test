@@ -1,0 +1,1 @@
+const mockRequestsDelay = Duration(milliseconds: 500);
